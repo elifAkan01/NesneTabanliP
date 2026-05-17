@@ -1,0 +1,57 @@
+﻿@page
+@model InvoiceApp.Pages.Invoices.DetailsModel
+@{
+    ViewData["Title"] = "Fatura Detayı";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card shadow-lg overflow-hidden">
+                <div class="card-header bg-primary text-white py-3 d-flex justify-content-between align-items-center">
+                    <h4 class="mb-0">Fatura: @Model.Invoice.Number</h4>
+                    <span class="badge bg-light text-primary p-2">@Model.Invoice.Status</span>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row mb-4">
+                        <div class="col-sm-6">
+                            <h6 class="text-muted text-uppercase small fw-bold">Müşteri</h6>
+                            <p class="fs-5 mb-1"><strong>@Model.Invoice.ClientName</strong></p>
+                            <p class="text-muted">@Model.Invoice.Email<br>@Model.Invoice.Phone</p>
+                        </div>
+                        <div class="col-sm-6 text-sm-end">
+                            <h6 class="text-muted text-uppercase small fw-bold">Tarihler</h6>
+                            <p class="mb-1"><strong>Düzenleme:</strong> @Model.Invoice.IssueDate?.ToString("dd.MM.yyyy")</p>
+                            <p><strong>Vade:</strong> @Model.Invoice.DueDate?.ToString("dd.MM.yyyy")</p>
+                        </div>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="table border">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th>Hizmet / Ürün</th>
+                                    <th class="text-center">Birim Fiyat</th>
+                                    <th class="text-center">Miktar</th>
+                                    <th class="text-end">Toplam</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="py-3">@Model.Invoice.Service</td>
+                                    <td class="text-center py-3">@Model.Invoice.UnitPrice.ToString("N2") ₺</td>
+                                    <td class="text-center py-3">@Model.Invoice.Quantity</td>
+                                    <td class="text-end py-3 fw-bold text-primary">@((Model.Invoice.UnitPrice * Model.Invoice.Quantity).ToString("N2")) ₺</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="card-footer bg-white py-3 d-flex justify-content-between">
+                    <a class="btn btn-outline-secondary" asp-page="./Index">← Geri Dön</a>
+                    <a class="btn btn-warning" asp-page="./Edit" asp-route-id="@Model.Invoice.Id">Düzenle</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,76 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container py-4">
+    <div class="row align-items-center mb-5">
+        <div class="col-md-8">
+            <h1 class="display-4 fw-bold text-dark">Invo<span class="text-primary">Flow</span></h1>
+            <p class="lead text-muted">Finansal süreçlerinizi pürüzsüz bir akışla yönetin.</p>
+        </div>
+    </div>
+
+    <div class="row g-4 mb-5">
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0 border-top border-primary border-4 p-3">
+                <div class="card-body">
+                    <h6 class="text-muted text-uppercase small fw-bold">Toplam Fatura</h6>
+                    <h2 class="display-6 fw-bold">@Model.TotalInvoices Adet</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0 border-top border-success border-4 p-3">
+                <div class="card-body">
+                    <h6 class="text-muted text-uppercase small fw-bold">Toplam Ciro</h6>
+                    <h2 class="display-6 fw-bold text-success">@Model.TotalAmount.ToString("N2") ₺</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0 border-top border-warning border-4 p-3">
+                <div class="card-body">
+                    <h6 class="text-muted text-uppercase small fw-bold">Bekleyen Ödemeler</h6>
+                    <h2 class="display-6 fw-bold text-warning">@Model.PendingInvoices Adet</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-6">
+            <a asp-page="/Invoices/Index" class="text-decoration-none">
+                <div class="p-5 border rounded-4 bg-white shadow-sm text-center hover-box">
+                    <div class="fs-1 mb-2">🔍</div>
+                    <h4 class="fw-bold text-dark">Faturaları Yönet</h4>
+                    <p class="text-muted mb-0">Listele, detayları gör veya düzenle.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6">
+            <a asp-page="/Invoices/Create" class="text-decoration-none">
+                <div class="p-5 border rounded-4 bg-white shadow-sm text-center hover-box text-primary">
+                    <div class="fs-1 mb-2">➕</div>
+                    <h4 class="fw-bold">Yeni Fatura Ekle</h4>
+                    <p class="text-muted mb-0">Saniyeler içinde yeni bir kayıt oluştur.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .hover-box {
+        transition: all 0.3s;
+        border: 2px solid transparent !important;
+    }
+
+        .hover-box:hover {
+            transform: translateY(-8px);
+            border-color: #0d6efd !important;
+            background-color: #f8faff !important;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05) !important;
+        }
+</style>

@@ -1,0 +1,73 @@
+﻿@page
+@model InvoiceApp.Pages.Invoices.EditModel
+@{
+    ViewData["Title"] = "Faturayı Düzenle";
+}
+
+<div class="row">
+    <div class="col-md-8 mx-auto border p-4 shadow-sm">
+        <h2 class="text-center mb-4">Faturayı Düzenle</h2>
+
+        <form method="post">
+            <input type="hidden" asp-for="Invoice.Id" />
+
+            <div class="row mb-3">
+                <div class="col">
+                    <label class="form-label">Fatura Numarası</label>
+                    <input asp-for="Invoice.Number" class="form-control" />
+                </div>
+                <div class="col">
+                    <label class="form-label">Durum</label>
+                    <select asp-for="Invoice.Status" class="form-select">
+                        <option value="Pending">Beklemede</option>
+                        <option value="Paid">Ödendi</option>
+                        <option value="Canceled">İptal Edildi</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <label class="form-label">Müşteri Adı</label>
+                    <input asp-for="Invoice.ClientName" class="form-control" />
+                </div>
+                <div class="col">
+                    <label class="form-label">E-posta</label>
+                    <input asp-for="Invoice.Email" class="form-control" type="email" />
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Hizmet/Ürün</label>
+                <input asp-for="Invoice.Service" class="form-control" />
+            </div>
+
+            <div class="row mb-3">
+                <div class="col">
+                    <label class="form-label">Birim Fiyat (₺)</label>
+                    <input asp-for="Invoice.UnitPrice" id="unitPrice" class="form-control" type="number" step="0.01" />
+                </div>
+                <div class="col">
+                    <label class="form-label">Miktar</label>
+                    <input asp-for="Invoice.Quantity" id="quantity" class="form-control" type="number" />
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col">
+                    <label class="form-label">Düzenleme Tarihi</label>
+                    <input asp-for="Invoice.IssueDate" class="form-control" type="date" />
+                </div>
+                <div class="col">
+                    <label class="form-label">Son Ödeme Tarihi</label>
+                    <input asp-for="Invoice.DueDate" class="form-control" type="date" />
+                </div>
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a class="btn btn-outline-secondary me-md-2" asp-page="/Invoices/Index">İptal</a>
+                <button type="submit" class="btn btn-warning">Değişiklikleri Kaydet</button>
+            </div>
+        </form>
+    </div>
+</div>
