@@ -1,0 +1,10 @@
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Merhaba\bin\Debug\Merhaba.exe.config
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Merhaba\bin\Debug\Merhaba.exe
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Merhaba\bin\Debug\Merhaba.pdb
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Merhaba\obj\Debug\Merhaba.csproj.AssemblyReference.cache
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Merhaba\obj\Debug\Merhaba.Form1.resources
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Merhaba\obj\Debug\Merhaba.Properties.Resources.resources
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Merhaba\obj\Debug\Merhaba.csproj.GenerateResource.cache
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Merhaba\obj\Debug\Merhaba.csproj.CoreCompileInputs.cache
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Merhaba\obj\Debug\Merhaba.exe
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Merhaba\obj\Debug\Merhaba.pdb

@@ -1,0 +1,10 @@
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Nesneler\bin\Debug\Nesneler.exe.config
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Nesneler\bin\Debug\Nesneler.exe
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Nesneler\bin\Debug\Nesneler.pdb
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Nesneler\obj\Debug\Nesneler.csproj.AssemblyReference.cache
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Nesneler\obj\Debug\Nesneler.Form1.resources
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Nesneler\obj\Debug\Nesneler.Properties.Resources.resources
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Nesneler\obj\Debug\Nesneler.csproj.GenerateResource.cache
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Nesneler\obj\Debug\Nesneler.csproj.CoreCompileInputs.cache
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Nesneler\obj\Debug\Nesneler.exe
+C:\Users\elif7\OneDrive\Masaüstü\GP1\Nesneler\obj\Debug\Nesneler.pdb
