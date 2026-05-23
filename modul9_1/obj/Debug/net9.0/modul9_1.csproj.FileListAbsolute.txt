@@ -1,0 +1,14 @@
+C:\Users\elif7\Desktop\ntp2\modul9_1\bin\Debug\net9.0\modul9_1.exe
+C:\Users\elif7\Desktop\ntp2\modul9_1\bin\Debug\net9.0\modul9_1.deps.json
+C:\Users\elif7\Desktop\ntp2\modul9_1\bin\Debug\net9.0\modul9_1.runtimeconfig.json
+C:\Users\elif7\Desktop\ntp2\modul9_1\bin\Debug\net9.0\modul9_1.dll
+C:\Users\elif7\Desktop\ntp2\modul9_1\bin\Debug\net9.0\modul9_1.pdb
+C:\Users\elif7\Desktop\ntp2\modul9_1\obj\Debug\net9.0\modul9_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elif7\Desktop\ntp2\modul9_1\obj\Debug\net9.0\modul9_1.AssemblyInfoInputs.cache
+C:\Users\elif7\Desktop\ntp2\modul9_1\obj\Debug\net9.0\modul9_1.AssemblyInfo.cs
+C:\Users\elif7\Desktop\ntp2\modul9_1\obj\Debug\net9.0\modul9_1.csproj.CoreCompileInputs.cache
+C:\Users\elif7\Desktop\ntp2\modul9_1\obj\Debug\net9.0\modul9_1.dll
+C:\Users\elif7\Desktop\ntp2\modul9_1\obj\Debug\net9.0\refint\modul9_1.dll
+C:\Users\elif7\Desktop\ntp2\modul9_1\obj\Debug\net9.0\modul9_1.pdb
+C:\Users\elif7\Desktop\ntp2\modul9_1\obj\Debug\net9.0\modul9_1.genruntimeconfig.cache
+C:\Users\elif7\Desktop\ntp2\modul9_1\obj\Debug\net9.0\ref\modul9_1.dll

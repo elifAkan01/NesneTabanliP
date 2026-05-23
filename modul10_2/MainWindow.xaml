@@ -1,0 +1,39 @@
+﻿<Window x:Class="modul10_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:modul10_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="grid1" Margin="10">
+     
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- DataGrid -->
+        <DataGrid x:Name="dataGrid1"
+              AutoGenerateColumns="True"
+              Grid.Row="0"
+              Margin="5"/>
+
+        <!-- Alt Alan -->
+        <StackPanel Grid.Row="1" Margin="10">
+
+            <TextBlock Text="Kategori Adı"/>
+            <TextBox Text="{Binding Path=CategoryName}"
+                 Height="25"
+                 Margin="0,5,0,10"/>
+
+            <TextBlock Text="Açıklama"/>
+            <TextBox Text="{Binding Path=Description}"
+                 Height="60"
+                 Margin="0,5,0,10"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>

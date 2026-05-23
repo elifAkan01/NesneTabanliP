@@ -1,0 +1,15 @@
+C:\Users\elif7\Desktop\ntp2\modul10_2\obj\Debug\modul10_2.csproj.AssemblyReference.cache
+C:\Users\elif7\Desktop\ntp2\modul10_2\obj\Debug\MainWindow.g.cs
+C:\Users\elif7\Desktop\ntp2\modul10_2\obj\Debug\App.g.cs
+C:\Users\elif7\Desktop\ntp2\modul10_2\obj\Debug\modul10_2_MarkupCompile.cache
+C:\Users\elif7\Desktop\ntp2\modul10_2\obj\Debug\modul10_2_MarkupCompile.lref
+C:\Users\elif7\Desktop\ntp2\modul10_2\bin\Debug\modul10_2.exe.config
+C:\Users\elif7\Desktop\ntp2\modul10_2\bin\Debug\modul10_2.exe
+C:\Users\elif7\Desktop\ntp2\modul10_2\bin\Debug\modul10_2.pdb
+C:\Users\elif7\Desktop\ntp2\modul10_2\obj\Debug\MainWindow.baml
+C:\Users\elif7\Desktop\ntp2\modul10_2\obj\Debug\modul10_2.g.resources
+C:\Users\elif7\Desktop\ntp2\modul10_2\obj\Debug\modul10_2.Properties.Resources.resources
+C:\Users\elif7\Desktop\ntp2\modul10_2\obj\Debug\modul10_2.csproj.GenerateResource.cache
+C:\Users\elif7\Desktop\ntp2\modul10_2\obj\Debug\modul10_2.csproj.CoreCompileInputs.cache
+C:\Users\elif7\Desktop\ntp2\modul10_2\obj\Debug\modul10_2.exe
+C:\Users\elif7\Desktop\ntp2\modul10_2\obj\Debug\modul10_2.pdb

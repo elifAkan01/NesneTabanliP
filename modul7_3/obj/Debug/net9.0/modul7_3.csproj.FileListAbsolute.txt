@@ -1,0 +1,14 @@
+C:\Users\elif7\Desktop\ntp2\modul7_3\bin\Debug\net9.0\modul7_3.exe
+C:\Users\elif7\Desktop\ntp2\modul7_3\bin\Debug\net9.0\modul7_3.deps.json
+C:\Users\elif7\Desktop\ntp2\modul7_3\bin\Debug\net9.0\modul7_3.runtimeconfig.json
+C:\Users\elif7\Desktop\ntp2\modul7_3\bin\Debug\net9.0\modul7_3.dll
+C:\Users\elif7\Desktop\ntp2\modul7_3\bin\Debug\net9.0\modul7_3.pdb
+C:\Users\elif7\Desktop\ntp2\modul7_3\obj\Debug\net9.0\modul7_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elif7\Desktop\ntp2\modul7_3\obj\Debug\net9.0\modul7_3.AssemblyInfoInputs.cache
+C:\Users\elif7\Desktop\ntp2\modul7_3\obj\Debug\net9.0\modul7_3.AssemblyInfo.cs
+C:\Users\elif7\Desktop\ntp2\modul7_3\obj\Debug\net9.0\modul7_3.csproj.CoreCompileInputs.cache
+C:\Users\elif7\Desktop\ntp2\modul7_3\obj\Debug\net9.0\modul7_3.dll
+C:\Users\elif7\Desktop\ntp2\modul7_3\obj\Debug\net9.0\refint\modul7_3.dll
+C:\Users\elif7\Desktop\ntp2\modul7_3\obj\Debug\net9.0\modul7_3.pdb
+C:\Users\elif7\Desktop\ntp2\modul7_3\obj\Debug\net9.0\modul7_3.genruntimeconfig.cache
+C:\Users\elif7\Desktop\ntp2\modul7_3\obj\Debug\net9.0\ref\modul7_3.dll

@@ -1,0 +1,7 @@
+C:\Users\elif7\Desktop\ntp2\modul10_1\bin\Debug\modul10_1.exe.config
+C:\Users\elif7\Desktop\ntp2\modul10_1\bin\Debug\modul10_1.exe
+C:\Users\elif7\Desktop\ntp2\modul10_1\bin\Debug\modul10_1.pdb
+C:\Users\elif7\Desktop\ntp2\modul10_1\obj\Debug\modul10_1.csproj.AssemblyReference.cache
+C:\Users\elif7\Desktop\ntp2\modul10_1\obj\Debug\modul10_1.csproj.CoreCompileInputs.cache
+C:\Users\elif7\Desktop\ntp2\modul10_1\obj\Debug\modul10_1.exe
+C:\Users\elif7\Desktop\ntp2\modul10_1\obj\Debug\modul10_1.pdb
